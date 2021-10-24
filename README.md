@@ -15,6 +15,8 @@ Ter as seguintes tecnologias instaladas
 Antes de rodar o projeto
 - Criar um banco de dados com nome 'ioasys'
 - Trocar os atributos `spring.datasource.username` e `spring.datasource.password` para as credenciais do MySQL que está rodando. Trocar no arquivo `/resources/application.properties`
+- Trocar os atributos `spring.flyway.user` e `spring.flyway.password` para as credenciais do MySQL que está rodando. Trocar no arquivo `/resources/application.properties`
+
 ## Rodar o projeto
 
 Para rodar a API rode os seguinte comandos
